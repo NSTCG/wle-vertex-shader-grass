@@ -1,0 +1,42 @@
+{
+	"name": "wle-vertex-shader-grass",
+	"version": "1.0.0",
+	"description": "An open-source demo for Wonderland Engine showcasing how to use a custom vertex shader to animate a procedurally generated grass field with Perlin noise.",
+	"author": "Nithin Steven F. <nithinsteven32@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NSTCG/wle-vertex-shader-grass.git"
+	},
+	"bugs": {
+		"url": "https://github.com/NSTCG/wle-vertex-shader-grass/issues",
+		"email": "nithinsteven32@gmail.com"
+	},
+	"homepage": "https://github.com/NSTCG/wle-vertex-shader-grass#readme",
+	"main": "js/index.js",
+	"type": "module",
+	"module": "js/index.js",
+	"scripts": {
+		"build": "echo \"The 'build' script is run by the editor and should produce your application bundle\""
+	},
+	"keywords": [
+		"wonderland-engine",
+		"vertex-shader",
+		"glsl",
+		"perlin-noise",
+		"webxr",
+		"webgl",
+		"grass",
+		"shaders",
+		"demo",
+		"wle"
+	],
+	"dependencies": {
+		"@wonderlandengine/api": "^1.4.5",
+		"@wonderlandengine/components": "^1.2.1",
+		"gl-matrix": "^3.4.3",
+		"wle-stats": "^1.0.3"
+	},
+	"devDependencies": {
+		"@wonderlandengine/editor-api": "^1.4.6"
+	}
+}
